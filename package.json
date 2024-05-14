@@ -1,0 +1,16 @@
+{
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "build": "npm run tscclean && npm run tsc",
+    "tsc": "tsc",
+    "tscwatch": "tsc --watch",
+    "tscclean": "shx rm -rf ./_dist/*"
+  },
+  "dependencies": {
+    "shx": "^0.3.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12"
+  }
+}
